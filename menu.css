@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.corpo {
+  background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.2), rgba(0,0,0,.9)), url(deserto.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.conteiner{
+  max-width: 1400px;
+  padding: 3%;
+  margin: 0 auto;
+}
+nav#menu{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgba(0,0,0,.4);
+border-radius: 20px;
+padding:15px;
+
+
+}
+.logo{
+  font-size: 35px;
+  font-style: italic;
+  color: white;
+  font-weight: bold;
+
+}
+ul#menuul{
+  list-style: none;
+
+}
+.munuli{
+  display:inline-block;
+}
+a{
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 19px;
+  color: white;
+  border-radius: 30px;
+  transition: 0.6s;
+}
+a:hover{
+  background-color: blue;
+}
+img{
+  width: 180px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: 0.5s;
+
+}
+.galeria{
+  display: inline-block;
+  margin-left: 50px;
+
+
+
+}
+.tamanha{
+  max-width: auto;
+  margin: 0px auto 0px auto;
+  background-color: rgba(255,255,255,.5);
+  border-radius: 20px;
+
+
+}
+img:hover{
+  width: 230px;
+}
+.imagens{
+align-content: center;
+  display:inherit;
+  width: 200px;
+  margin: 0 auto;
+  padding: 0;
+
+
+}
+button{
+  align-items: center;
+}

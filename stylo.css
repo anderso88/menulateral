@@ -1,0 +1,86 @@
+button#btl1{
+  display: none;
+  position: absolute;
+  margin-left: 6%;
+  color: blue;
+  width: 10ch;
+  margin-top: 0px;
+}
+
+button#btl2{
+  display: block;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 75px;
+}
+
+nav#menu{
+
+display: block;
+background-color: green;
+width: 150px;
+margin-top: -40px;
+margin-left: -20px;
+height: 3000px;
+animation-name: menulateral;
+animation-duration: 2s;
+
+
+
+}
+ul#menuul{
+  text-transform: uppercase;
+  padding-top:  50px;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px black;
+
+
+
+}
+.munuli{
+  list-style: none;
+  padding-top:  5px;
+
+}
+@keyframes menulateral {
+  from{
+    margin-left:  -20%;
+  }
+  to{
+    margin-left:  -20px;
+  }
+
+}
+@keyframes menulateralof {
+  from{
+    margin-left:  -20px;
+  }
+  to{
+    margin-left:  -20%;
+  }
+
+}
+div#rotativo{
+  width: 8ch;
+  background-color: black;
+  padding: 3px;
+  margin-left: 100px;
+  animation-name: rota;
+  animation-duration: 3s;
+  transform: rotate(90deg);
+  color:white;
+
+}
+@keyframes rota {
+  from{ transform: rotate(0deg);}
+  to{transform: rotate(90deg);}
+}
+@keyframes rota1 {
+  from{ transform: rotate(90deg);}
+  to{transform: rotate(0deg);}
+}
